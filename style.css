@@ -220,3 +220,24 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+/* ------------media-queries-for-small-screen---------------- */
+
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .language-btn{
+        padding: 5px 10px;
+    }
+    .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+}
